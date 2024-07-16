@@ -1,0 +1,91 @@
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("img.jpg");
+}
+
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+    background-color: rgb(245, 243, 243);
+    width: 757px;
+    height: 922px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.part{
+    height: 33%;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+
+}
+.section{
+    width: 50%;
+    border-top: 2px solid black;
+    padding-top: 12px;
+}
+label{
+    display: block;
+    margin-top: 2px;
+}
+
+input{
+    border: none;
+    display: block;
+    margin-top: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+input:focus{
+    outline: 0;
+}
+textarea:focus{
+    outline: 0;
+}
+
+#button{
+    margin-top: 12px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(221, 220, 220);
+    border: none;
+}
+
+#button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+
+}
+
+textarea{
+    border: none;
+    display: block;
+    margin-top: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 169px;
+    height: 40px;
+    resize: none;
+}
+h4{
+    margin: 0;
+    padding-left: 16px;
+    padding-top: 12px;
+    font-weight: 600;
+}

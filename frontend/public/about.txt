@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Trochut
+- Font Author: Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com), with Reserved Font Name Trochut
+- Font Source: https://fonts.gstatic.com/s/trochut/v22/CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
